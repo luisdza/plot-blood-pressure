@@ -37,6 +37,7 @@ usethis::use_news_md( open = TRUE )
 
 ## Use git ----
 usethis::use_git()
+usethis::use_git_config(user.name = "Luis de Sousa", user.email = "luisd@syeop.co.za")
 
 ## Init Testing Infrastructure ----
 ## Create a template for tests
