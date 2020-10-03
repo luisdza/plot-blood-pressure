@@ -7,8 +7,8 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-![Deploy to
-shinyapps.io](https://github.com/luisdza/plot-blood-pressure/workflows/Deploy%20to%20shinyapps.io/badge.svg)
+[![Deploy to
+shinyapps.io](https://github.com/luisdza/plot-blood-pressure/workflows/Deploy%20to%20shinyapps.io/badge.svg)](https://github.com/luisdza/plot-blood-pressure/actions)
 <!-- badges: end -->
 
 The goal of plotbloodpressure is to …

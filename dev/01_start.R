@@ -32,6 +32,7 @@ usethis::use_mit_license( name = "Luis de Sousa" )  # You can set another licens
 usethis::use_readme_rmd( open = TRUE )
 usethis::use_code_of_conduct()
 usethis::use_lifecycle_badge( "Experimental" )
+usethis::use_github_actions_badge(name = "Deploy to shinyapps.io")
 usethis::use_news_md( open = TRUE )
 
 ## Use git ----
