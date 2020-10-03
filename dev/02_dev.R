@@ -48,6 +48,9 @@ usethis::use_test( "app" )
 usethis::use_vignette("plotbloodpressure")
 devtools::build_vignettes()
 
+# Use pkgdown
+usethis::use_pkgdown()
+
 ## Code coverage ----
 ## (You'll need GitHub there)
 #usethis::use_github()
