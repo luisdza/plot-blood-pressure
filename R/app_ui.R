@@ -9,8 +9,13 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # List the first level UI elements here 
-    fluidPage(
-      h1("plotbloodpressure")
+    navbarPage(
+      "Visualising Blood Pressure",
+      tabPanel(
+        "Graph",
+        icon = icon("info"),
+        mod_plotmeasurements_ui("plotmeasurements_ui_1")
+      )
     )
   )
 }
@@ -30,7 +35,7 @@ golem_add_external_resources <- function(){
   )
  
   tags$head(
-    favicon(),
+    favicon(ext = 'png'),
     bundle_resources(
       path = app_sys('app/www'),
       app_title = 'plotbloodpressure'

@@ -50,7 +50,8 @@ devtools::build_vignettes()
 
 ## Code coverage ----
 ## (You'll need GitHub there)
-usethis::use_github()
+#usethis::use_github()
+#2020-10-03 got error Error: Must be on branch 'master', not 'main'.
 #usethis::use_travis()
 #usethis::use_appveyor()
 

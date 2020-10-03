@@ -15,10 +15,11 @@ Imports:
     htmltools,
     ggplot2,
     readr,
-    dplyr
+    dplyr,
+    pkgload
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 URL: https://github.com/luisdza/plot-blood-pressure
 BugReports: https://github.com/luisdza/plot-blood-pressure/issues
 Suggests: 
@@ -26,3 +27,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
