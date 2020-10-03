@@ -15,6 +15,11 @@ gh-pages](https://github.com/luisdza/plot-blood-pressure/workflows/Deploy%20docu
 
 The goal of plotbloodpressure is to …
 
+## Start HERE
+
+To check out the dashboard, go here:
+<https://luisd.shinyapps.io/plot-blood-pressure/>
+
 ## Installation
 
 You can install the released version of plotbloodpressure from
