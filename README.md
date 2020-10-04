@@ -71,7 +71,17 @@ up-to-date.
 
 You can also embed plots, for example:
 
-<img src="man/figures/README-plot-1.png" width="100%" />
+<div class="figure">
+
+<img src="man/figures/README-plot-1.png" alt="Some Plot" width="100%" />
+
+<p class="caption">
+
+Some Plot
+
+</p>
+
+</div>
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub\!

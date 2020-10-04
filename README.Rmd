@@ -60,7 +60,7 @@ You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-da
 
 You can also embed plots, for example:
 
-```{r plot, echo = FALSE}
+```{r plot, echo = FALSE, fig.cap="Some Plot"}
 plot(bloodpressuremeasurements)
 ```
 
