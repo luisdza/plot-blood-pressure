@@ -1,3 +1,8 @@
+#' Filter and plot blood pressure readings
+#' 
+#' @param start Start date for filter.
+#' @param end End date for filter.
+#' @return plot.
 #' @importFrom dplyr filter
 #' @importFrom ggplot2 ggplot aes geom_col theme_classic labs expand_limits geom_rect scale_color_manual geom_point
 filter_and_draw <- function(start, end){
