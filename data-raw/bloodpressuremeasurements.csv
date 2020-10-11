@@ -1,4 +1,4 @@
-Date,Time,Category,Sys,Dia,Pulse
+date,time,category,sys,dia,pulse
 2020/08/12,06:58,Morning,144,96,61
 2020/08/12,20:38,Evening,120,86,74
 2020/08/13,06:06,Morning,138,97,83
